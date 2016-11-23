@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdventureGame
 {
-    public partial class Form1 : Form
+    public partial class AdventureGame : Form
     {
-        public Form1()
+        public AdventureGame()
         {
             InitializeComponent();
         }
