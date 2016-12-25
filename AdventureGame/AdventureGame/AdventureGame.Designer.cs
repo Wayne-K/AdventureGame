@@ -36,7 +36,6 @@
             this.labelGold = new System.Windows.Forms.Label();
             this.labelExperience = new System.Windows.Forms.Label();
             this.labelLevel = new System.Windows.Forms.Label();
-            this.btnTest = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -107,22 +106,11 @@
             this.labelLevel.Size = new System.Drawing.Size(0, 13);
             this.labelLevel.TabIndex = 7;
             // 
-            // btnTest
-            // 
-            this.btnTest.Location = new System.Drawing.Point(408, 168);
-            this.btnTest.Name = "btnTest";
-            this.btnTest.Size = new System.Drawing.Size(75, 23);
-            this.btnTest.TabIndex = 8;
-            this.btnTest.Text = "Test";
-            this.btnTest.UseVisualStyleBackColor = true;
-            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
-            // 
             // AdventureGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(719, 651);
-            this.Controls.Add(this.btnTest);
             this.Controls.Add(this.labelLevel);
             this.Controls.Add(this.labelExperience);
             this.Controls.Add(this.labelGold);
@@ -148,7 +136,6 @@
         private System.Windows.Forms.Label labelGold;
         private System.Windows.Forms.Label labelExperience;
         private System.Windows.Forms.Label labelLevel;
-        private System.Windows.Forms.Button btnTest;
     }
 }
 
