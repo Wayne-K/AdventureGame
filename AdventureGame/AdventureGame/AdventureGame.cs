@@ -21,13 +21,7 @@ namespace AdventureGame
 
             Location location = new Location(1, "Home", "This is your house.");
 
-            player = new Player();
-
-            player.currentHP = 10;
-            player.maxHP = 10;
-            player.gold = 20;
-            player.experiencePoints = 0;
-            player.level = 1;
+            player = new Player(10, 10, 20, 0, 1);
 
             labelHP.Text = player.currentHP.ToString();
             labelGold.Text = player.gold.ToString();
