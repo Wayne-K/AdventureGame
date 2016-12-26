@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class Monster
+    public class Monster : LivingCreature
     {
         public int ID { get; set; }
         public string name { get; set; }
-        public int maxHP { get; set; }
-        public int currentHP { get; set; }
         public int maxDamage { get; set; }
         public int rewardEXP { get; set; }
         public int rewardGold { get; set; }
