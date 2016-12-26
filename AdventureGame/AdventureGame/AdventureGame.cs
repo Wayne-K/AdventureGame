@@ -19,6 +19,8 @@ namespace AdventureGame
         {
             InitializeComponent();
 
+            Location location = new Location(1, "Home", "This is your house.");
+
             player = new Player();
 
             player.currentHP = 10;
