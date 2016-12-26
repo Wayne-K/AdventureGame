@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class Weapon
+    public class Weapon : Item
     {
-        public int ID { get; set; }
-        public string name { get; set; }
-        public string namePlural { get; set; }
         public int minDamage { get; set; }
         public int maxDamage { get; set; }
     }
