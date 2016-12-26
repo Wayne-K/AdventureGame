@@ -11,5 +11,12 @@ namespace Engine
         public int ID { get; set; }
         public string name { get; set; }
         public string namePlural { get; set; }
+        
+        public Item (int itemID, string itemName, string itemNamePlural)
+        {
+            ID = itemID;
+            name = itemName;
+            namePlural = itemNamePlural;
+        }
     }
 }
