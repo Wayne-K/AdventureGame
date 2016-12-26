@@ -21,13 +21,13 @@ namespace AdventureGame
 
             player = new Player();
 
-            player.currentHitPoints = 10;
-            player.maximumHitPoints = 10;
+            player.currentHP = 10;
+            player.maxHP = 10;
             player.gold = 20;
             player.experiencePoints = 0;
             player.level = 1;
 
-            labelHP.Text = player.currentHitPoints.ToString();
+            labelHP.Text = player.currentHP.ToString();
             labelGold.Text = player.gold.ToString();
             labelExperience.Text = player.experiencePoints.ToString();
             labelLevel.Text = player.level.ToString();
